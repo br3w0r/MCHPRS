@@ -40,6 +40,19 @@
             },
             "args": [],
             "cwd": "${workspaceFolder}/run"
+        },
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/target/debug/mchprs.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "environment": [],
+            "console": "externalTerminal",
+            "env": {
+                "RUST_BACKTRACE": "1"
+            }
         }
     ]
 }
